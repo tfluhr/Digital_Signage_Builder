@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+    <title>Galvin Library Digital Slideshow</title>
+    <link rel="stylesheet" href="signsIIT/signs.css">	
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+
+	<meta http-equiv="refresh" content="300">
+    
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <div id="logo"><img src="signsIIT/PVGLIBRARY_horiz_lockup_large.png"></div>
+        </div>
+        <div id="content">
+            <div id="sidebar-left" class="hidden">
+                <div id="sidebar-left-top"><span>Sidebar left - top</span></br><span>This div can be hidden to create one big sidebar</span></div>
+                <div id="sidebar-left-bottom"><span>Sidebar left - bottom</span></br><span>This div can be hidden to create one big sidebar</span></div>
+            </div>
+            <div id="main-content" class="reveal">
+                <div class="slides">
+						<section data-background-image=https://library.iit.edu/sites/default/files/2024-02/Paper%20Chain%20Challenge%20Flyer%20%28Presentation%20%2843%29%29.png data-background-size="contain, 100%"></section>
+						<section data-background-image=https://library.iit.edu/sites/default/files/2024-01/Misinformation%20-%20Monitors%20%281%29.png data-background-size="contain, 100%"></section>
+						<section data-background-image=https://library.iit.edu/sites/default/files/2024-01/Spring%2024%20Workshop%20Presentation%20%281%29.png data-background-size="contain, 100%"></section>
+						<section data-background-image=https://library.iit.edu/sites/default/files/2024-01/ZoteroSpring24%20%28monitors%29%20%20%281%29.png data-background-size="contain, 100%"></section>
+						<section data-background-image=https://library.iit.edu/sites/default/files/2024-01/ResourcesInTheSpotlight.png data-background-size="contain, 100%"></section>
+						<section data-background-image=https://library.iit.edu/sites/default/files/2024-02/GalvinHoursJan30-Apr23.png data-background-size="contain, 100%"></section>
+                </div>
+            </div>
+            <div id="sidebar-right">
+<iframe src="https://www.transitchicago.com/diydisplay/?s1=41120&s2=40190&size=small&tto=n" height="820" width="544"></iframe>
+                <!-- <iframe src="https://www.transitchicago.com/diydisplay/?s1=41120&s2=40190&size=large&w=1&tto=n"></iframe> -->
+                <div id="sidebar-right-top" class="hidden"><span>Sidebar right - top</span></br><span>This div can be hidden to create one big sidebar</span></div>
+                <div id="sidebar-right-bottom" class="hidden"><span>Sidebar right - bottom</span></br><span>This div can be hidden to create one big sidebar</span></div>
+            </div>
+        </div>
+         <div id="footer">
+            <div id="todays_hours">
+                <p>Today's Library Hours: 12am - 7pm</p>
+                
+            </div>
+		<div id="datetime"></div>
+        </div>
+
+    </div>
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+   <script src="signsIIT/signs.js"></script>
+    <script>
+        // More info about initialization & config:
+        // - https://revealjs.com/initialization/
+        // - https://revealjs.com/config/
+        Reveal.initialize({
+            hash: true,
+		//hide controls
+		 controls: false,
+		  controlsTutorial: false,
+		  controlsBackArrows: 'hidden',
+		// hide progress bar
+		 progress: false,
+		embedded: false,
+            // Slide every ten seconds
+            autoSlide: 10000,
+            loop: true,
+	    viewDistance: 10,
+            autoSlideStoppable: false,
+		  autoPlayMedia: true,
+            // Learn about plugins: https://revealjs.com/plugins/
+            plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+        });
+
+    </script>
+
+	<script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+	
+</body>
+
+
+</html>
